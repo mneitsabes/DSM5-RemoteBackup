@@ -1,0 +1,23 @@
+body {
+	font-family:verdana, tahoma, arial, helvetica, sans-serif;
+	font-size:11pt;
+}
+
+#container {
+	width:910px;
+	height:500px;
+}
+
+#menu {
+	float:left;
+	width:200px;
+	height:500px;
+	width:150px;
+	margin:0;
+	padding:1em;
+}
+
+#content {
+	margin-left:210px;
+	width:700px;
+}

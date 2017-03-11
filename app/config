@@ -1,0 +1,13 @@
+{
+    ".url": {
+        "net.mneitsabes.remotebackup": {
+            "title": "Remote Backup",
+            "desc": "Remote Backup",
+            "icon": "images/remotebackup_{0}.png",
+            "type": "legacy",
+            "url": "3rdparty/remotebackup/index.html",
+            "allUsers": true,
+            "grantPrivilege": "local"
+        }
+    }
+}

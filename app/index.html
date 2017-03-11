@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Remote Backup</title>
+	    <meta charset="UTF-8"> 
+	
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/main.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/pure-min-0.5.0.css" />
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="menu" class="pure-menu pure-menu-open pure-menu-vertical">
+				<ul>
+					<li><a href="javascript:loadOverview()">Overview</a></li>
+					<li><a href="javascript:loadLogs()">Logs</a></li>
+				</ul>
+			</div>
+			<div id="content"></div>
+		</div>
+	</body>
+	<script type="text/javascript">
+	jQuery(function($) {
+		loadOverview();
+	});
+	</script>
+</html>
